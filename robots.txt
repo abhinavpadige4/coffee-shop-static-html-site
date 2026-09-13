@@ -1,0 +1,18 @@
+# Robots.txt for Brew Haven Coffee Co.
+# This file tells search engine crawlers which pages or files they can or can't request from your site
+
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+
+# Allow access to CSS, JS, and images for proper rendering
+Allow: /css/
+Allow: /js/
+Allow: /assets/
+
+# Sitemap location
+Sitemap: https://abhinavpadige4.github.io/coffee-shop-static-html-site/sitemap.xml
